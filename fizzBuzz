@@ -4,7 +4,7 @@ for x in range(1,101):
     if (x % 3 == 0):
         out += "Fi!"
     elif (x % 5 == 0):
-        out += "BuzRRY!!"
+        out += "   BuzRRY!!"
     if out == "":
         print(x)
     else:
