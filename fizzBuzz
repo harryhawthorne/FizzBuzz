@@ -2,9 +2,9 @@
 for x in range(1,101):
     out = ""
     if (x % 3 == 0):
-        out += "Fi!"
+        out += "Fizz"
     elif (x % 5 == 0):
-        out += "   BuzRRY!!"
+        out += "Buzz"
     if out == "":
         print(x)
     else:
